@@ -1,4 +1,4 @@
-/* Shared */
+/* Global */
 
 * {
     box-sizing: border-box;
@@ -14,20 +14,49 @@ button {
     background-color: #3882f6;
 }
 
+ul {
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+/* Shared Between Sections */
+
 .logo,
 .hero-main {
     color: #f9faf8;
 }
 
+a:visited,
 .nav-links,
 .hero-secondary {
     color: #e5e7eb;
 }
 
-/* Header */
+.nav {
+    max-width: 1000px;
+    margin: 0 auto;
+}
 
+.flex {
+    display: flex;
+}
+
+/* Header */
 .header {
     background-color: #1f2937;
+}
+
+.nav {
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+.nav-links {
+    gap: 25px;
 }
 
 .logo {
