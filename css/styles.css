@@ -28,6 +28,10 @@ li a {
 
 /* Shared Between Sections */
 
+.flex {
+    display: flex;
+}
+
 .logo,
 .hero-main {
     color: #f9faf8;
@@ -49,8 +53,8 @@ button,
     justify-content: space-between;
 }
 
-.flex {
-    display: flex;
+.hero {
+    height: 363px;
 }
 
 /* Header */
@@ -72,8 +76,7 @@ button,
 }
 
 .hero {
-    margin-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 80px;
 }
 
 .hero-main {
