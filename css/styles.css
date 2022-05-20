@@ -35,9 +35,13 @@ a:visited,
     color: #e5e7eb;
 }
 
-.nav {
+.nav, .hero {
     max-width: 1000px;
+    min-width: 820px;
     margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
 }
 
 .flex {
@@ -51,8 +55,7 @@ a:visited,
 
 .nav {
     align-items: center;
-    justify-content: space-between;
-    padding: 20px 20px;
+    padding: 20px 20px 0 20px;
 }
 
 .nav-links {
@@ -63,7 +66,22 @@ a:visited,
     font-size: 24px;
 }
 
+.hero {
+    margin-top: 80px;
+    padding-bottom: 80px;
+}
+
 .hero-main {
     font-size: 48px;
     font-weight: 900;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.hero-right img {
+    width: 300px;
+    height: auto;
 }
