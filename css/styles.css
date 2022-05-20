@@ -12,6 +12,10 @@ body {
 
 button {
     background-color: #3882f6;
+    padding: 8px 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
 }
 
 ul {
@@ -30,6 +34,7 @@ li a {
 }
 
 a:visited,
+button,
 .nav-links,
 .hero-secondary {
     color: #e5e7eb;
