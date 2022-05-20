@@ -1,5 +1,40 @@
+/* Shared */
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    background-color: #3882f6;
+}
+
+.logo,
+.hero-main {
+    color: #f9faf8;
+}
+
+.nav-links,
+.hero-secondary {
+    color: #e5e7eb;
+}
+
+/* Header */
+
+.header {
+    background-color: #1f2937;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 900;
 }
