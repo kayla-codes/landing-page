@@ -58,6 +58,7 @@ button,
 }
 
 /* Header */
+
 .header {
     background-color: #1f2937;
 }
@@ -90,6 +91,6 @@ button,
 }
 
 .hero-right img {
-    width: 300px;
-    height: auto;
+    width: auto;
+    height: 200px;
 }
