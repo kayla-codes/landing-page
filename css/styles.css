@@ -15,7 +15,6 @@ button {
     padding: 8px 15px;
     font-weight: bold;
     border: none;
-    border-radius: 7px;
 }
 
 ul {
@@ -44,6 +43,11 @@ button,
     color: #e5e7eb;
 }
 
+button,
+.dog {
+    border-radius: 7px;
+}
+
 .container {
     max-width: 1000px;
     min-width: 1000px;
@@ -53,8 +57,14 @@ button,
     justify-content: space-between;
 }
 
-.hero {
+.hero,
+.adoption {
     height: 363px;
+}
+
+.hero-main,
+.section-title {
+    font-weight: 900;
 }
 
 /* Header */
@@ -82,7 +92,6 @@ button,
 
 .hero-main {
     font-size: 48px;
-    font-weight: 900;
 }
 
 .hero-secondary {
@@ -99,4 +108,16 @@ button,
 .hero-right img {
     width: auto;
     height: 200px;
+}
+
+/* Adoption */
+
+.section-title {
+    font-size: 36px;
+    color: #1f2937;
+    text-align: center;
+}
+
+.dog {
+    border: 4px solid #3882f6;
 }
