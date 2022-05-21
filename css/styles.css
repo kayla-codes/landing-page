@@ -44,7 +44,7 @@ button,
     color: #e5e7eb;
 }
 
-.nav, .hero {
+.container {
     max-width: 1000px;
     min-width: 1000px;
     margin: 0 auto;
