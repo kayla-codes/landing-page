@@ -44,7 +44,7 @@ button,
 }
 
 button,
-.dog {
+.dog img {
     border-radius: 7px;
 }
 
@@ -118,6 +118,6 @@ button,
     text-align: center;
 }
 
-.dog {
+.dog img {
     border: 4px solid #3882f6;
 }
