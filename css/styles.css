@@ -58,7 +58,8 @@ button,
 }
 
 .hero,
-.adoption {
+.adoption,
+.quote {
     height: 363px;
 }
 
@@ -138,4 +139,25 @@ button,
 .dog-details {
     justify-content: center;
     gap: 40px;
+}
+
+/* Quote */
+
+.quote-text,
+.quote-name {
+    color: #1f291f;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-name {
+    font-weight: bold;
 }
