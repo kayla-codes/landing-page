@@ -59,7 +59,8 @@ button,
 
 .hero,
 .adoption,
-.quote {
+.quote,
+.quote .flex {
     height: 363px;
 }
 
@@ -148,16 +149,28 @@ button,
     color: #1f291f;
 }
 
+.quote .flex {
+    justify-content: center;
+    align-items: center;
+}
+
 .quote {
     background-color: #e5e7eb;
+}
+
+.quote-container {
+    max-width: 700px;
 }
 
 .quote-text {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
+    align-self: center;
 }
 
 .quote-name {
     font-weight: bold;
+    text-align: right;
+    align-self: flex-end;
 }
