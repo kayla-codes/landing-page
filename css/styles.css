@@ -173,4 +173,5 @@ button,
     font-weight: bold;
     text-align: right;
     align-self: flex-end;
+    padding-right: 25px;
 }
