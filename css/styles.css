@@ -109,13 +109,13 @@ button,
 }
 
 .hero-left {
-    max-width: 460px;
-    min-width: 460px;
+    max-width: 550px;
+    min-width: 550px;
 }
 
 .hero-right img {
-    width: auto;
-    height: 200px;
+    width: 350px;
+    height: auto;
 }
 
 .quote .flex, 
