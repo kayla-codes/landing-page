@@ -25,6 +25,10 @@ li a {
     text-decoration: none;
 }
 
+p {
+    line-height: 1.25;
+}
+
 /* Shared Between Sections */
 
 .flex {
@@ -108,7 +112,7 @@ button,
 .hero-secondary {
     font-size: 18px;
     margin-top: 5px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .hero-left {
