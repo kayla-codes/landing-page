@@ -118,6 +118,11 @@ button,
     height: 200px;
 }
 
+.quote .flex, 
+.cta .container {
+    align-items: center;
+}
+
 /* Adoption */
 
 .section-title,
@@ -157,7 +162,6 @@ button,
 
 .quote .flex {
     justify-content: center;
-    align-items: center;
 }
 
 .quote {
@@ -181,6 +185,18 @@ button,
     align-self: flex-end;
     padding-right: 60px;
     padding-top: 5px;
+}
+
+/* CTA */
+
+.cta .container {
+    height: 300px;
+}
+
+.call-to-action {
+    flex: 1;
+    padding: 40px 130px;
+    justify-content: space-between;
 }
 
 .call-to-action button {
