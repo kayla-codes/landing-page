@@ -206,3 +206,11 @@ button,
 }
 
 /* Footer */
+
+.footer .flex {
+    justify-content: center;
+}
+
+.footer {
+    padding: 25px 0;
+}
