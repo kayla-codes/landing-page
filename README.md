@@ -6,6 +6,8 @@ This landing page was an assignment for The Odin Project.
 
 The assignment was to create a web page from scratch based on the design provided. The design resources can be found in the design folder. 
 
+There was some room for creativity, so I applied the design to a fictional dog adoption rescue called The Bull Pen.
+
 # References
 
 Theme, quote, and CTA text: Black Clover
