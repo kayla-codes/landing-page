@@ -87,7 +87,8 @@ button,
     color: #f9faf8;
 }
 
-a:visited,
+.nav a,
+.nav a:visited,
 button,
 .gray-txt {
     color: #e5e7eb;
